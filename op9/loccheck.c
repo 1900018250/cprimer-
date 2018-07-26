@@ -1,20 +1,23 @@
-/* æŸ¥çœ‹å˜é‡å­˜å‚¨åœ¨å“ªé‡Œ */
+/* ²é¿´±äÁ¿´æ´¢ÔÚÄÄÀï */
 #include<stdio.h>
+#include<stdlib.h>
 
 void mikado(int);
 
 int main(void)
 {
+    system("chcp 65001");
     int pooh = 2, bah = 5;
-    printf("ç¨‹åº å˜é‡: %d, åœ°å€ %p\n", pooh, &pooh);
-    printf("ç¨‹åº å‚æ•°å˜é‡ %d, åœ°å€: %p\n", bah, &bah);
+    printf("³ÌĞò ±äÁ¿: %d, µØÖ· %p\n", pooh, &pooh);
+    printf("³ÌĞò ²ÎÊı±äÁ¿ %d, µØÖ·: %p\n", bah, &bah);
     mikado(bah);
+    getchar();
     return 0;
 }
 
 void mikado(int bah)
 {
     int pooh = 10;
-    printf("å‡½æ•° å˜é‡: %d, åœ°å€ %p\n", pooh, &pooh);
-    printf("å‡½æ•° å‚æ•°å˜é‡ %d, åœ°å€: %p\n", bah, &bah);
+    printf("º¯Êı ±äÁ¿: %d, µØÖ· %p\n", pooh, &pooh);
+    printf("º¯Êı ²ÎÊı±äÁ¿ %d, µØÖ·: %p\n", bah, &bah);
 }
