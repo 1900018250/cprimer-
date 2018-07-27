@@ -2,7 +2,11 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("ÎÒºÃÏ²»¶Äã");
+    double rates[5] = {1.1, 1.2, 1.3, 1.4, 1.5};
+    const double * pd = rates;
+    pd++;   // const æŒ‡é’ˆ pdå¯ä»¥æŒ‡å‘åˆ«å¤„
+    printf("%f\n", *pd);
+    printf("%d\n", (int[]){1, 2, 3}[0]);
     getchar();
     return 0;
 }
