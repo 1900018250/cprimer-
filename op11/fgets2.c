@@ -2,7 +2,7 @@
 #define STLEN 10
 
 char * s_gets(char * st, int n);
-
+//sddd
 int main(int argc, char const *argv[])
 {
     char words[STLEN];
