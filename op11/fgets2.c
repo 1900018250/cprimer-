@@ -10,8 +10,8 @@ int main(int argc, char const *argv[])
    // while (fgets(words, STLEN, stdin) != NULL && words[0] != '\n')
    //     fputs(words, stdout);
    // puts("Done");
-    // s_gets(words, STLEN);
-    fgets(words, STLEN, stdin);
+    s_gets(words, STLEN);
+    //fgets(words, STLEN, stdin);
 
     puts(words);
     getchar();
