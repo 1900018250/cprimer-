@@ -39,4 +39,5 @@ char * s_gets(char * st, int n)
             }
         }
     }
+    return ret_val;
 }
